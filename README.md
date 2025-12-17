@@ -102,6 +102,18 @@ pip install -r requirements.txt
 ```
 Note: This project uses PyTorch. Ensure you have the correct version installed for your hardware (CUDA/MPS/CPU).
 
+### 4 Data Preparation (First Run Only)
+Navigate to the `notebooks/` directory and execute the pipeline in order:
+
+- `01-data-ingest.ipynb` — Download raw data  
+- `02-preprocess-chunk.ipynb` — Clean and chunk text  
+- `03-embeddings-index.ipynb` — Build FAISS text index  
+- `04-clip-index.ipynb` — Build CLIP image index  
+
+### 5 Run the Application
+```bash
+python app.py
+```
 ## 👥 Team Members
 
 | Name | Student ID |
