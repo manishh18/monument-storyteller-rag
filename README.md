@@ -113,3 +113,4 @@ Note: This project uses PyTorch. Ensure you have the correct version installed f
 | **Manish** | 202418030 |
 | **Meet Panchal** | 202418042 |
 | **Ujjwal Bhansali** | 202418058 |
+```
