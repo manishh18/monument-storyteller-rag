@@ -75,7 +75,41 @@ monument-storyteller-rag/
     └── embeddings/
 ```
 ## ⚙️ Installation & Setup
+
 ### 1. Clone the Repository
+```bash
 git clone [https://github.com/manishh18/monument-storyteller-rag.git](https://github.com/manishh18/monument-storyteller-rag.git)
 cd monument-storyteller-rag
 
+```
+
+### 2. Create a Virtual Environment
+```bash
+# Windows
+python -m venv venv
+.\venv\Scripts\activate
+
+# Mac/Linux
+python3 -m venv venv
+source venv/bin/activate
+
+```
+
+### 3. Install Dependencies
+```bash
+pip install -r requirements.txt
+
+```
+Note: This project uses PyTorch. Ensure you have the correct version installed for your hardware (CUDA/MPS/CPU).
+
+### Team Members Section
+
+```markdown
+## 👥 Team Members
+
+| Name | Student ID |
+| :--- | :--- |
+| **Darshita Dwivedi** | 202418013 |
+| **Manish** | 202418030 |
+| **Meet Panchal** | 202418042 |
+| **Ujjwal Bhansali** | 202418058 |
